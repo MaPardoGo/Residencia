@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planillas Disponibles</title>
+</head>
+<body>
+
+<form>
+    <label>Estado de registro</label>
+    <div>
+        <input type="checkbox" id="new" name="estado_registro" value="new">
+        <label for="new">Abierto/Nuevo</label>
+    </div>
+    <div>
+        <input type="checkbox" id="progress" name="estado_registro" value="progress">
+        <label for="progress">En progreso/En curso</label>
+    </div>
+    <div>
+        <input type="checkbox" id="finish" name="estado_registro" value="finish">
+        <label for="finish">Terminado/Resuelto/Cerrado</label>
+    </div>
+
+    <label>Ubicaciones</label>
+    <div>
+        <input type="checkbox" id="residencia" name="ubicaciones" value="residencia">
+        <label for="residencia">Residencia</label>
+    </div>
+    <div>
+        <input type="checkbox" id="cecom" name="ubicaciones" value="cecom">
+        <label for="cecom">CeCom</label>
+    </div>
+    <div>
+        <input type="checkbox" id="all_locates" name="ubicaciones" value="all_locates">
+        <label for="all_locates">Todas</label>
+    </div>
+
+    <button type="submit">Crear Planilla</button>
+</form>
+
+</body>
+</html>
